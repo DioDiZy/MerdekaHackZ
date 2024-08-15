@@ -1,0 +1,13 @@
+/* Saat mobile menu aktif */
+#mobile-menu.hidden {
+  display: none;
+}
+
+#mobile-menu:not(.hidden) {
+  display: block;
+}
+
+.hero {
+  background-image: url(/assets/img/bg-header.jpg);
+  border-image: fill 0 linear-gradient(#0001, #000);
+}
